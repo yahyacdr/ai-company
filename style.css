@@ -157,7 +157,7 @@ footer {
         height: 57%;
     }
     .top-desc .title {
-        width: 100%;
+        width: 103%;
         font-size: 1.5rem;
     }
     .cards {
@@ -168,6 +168,13 @@ footer {
     html {
         font-size: 14px;
     }
+    .top-desc .title {
+        width: 97%;
+        font-size: 1.4rem;
+    }
+    .top-desc p {
+        font-size: 0.9rem;
+    }
     .cards {
         height: 138vh;
     }
@@ -176,6 +183,14 @@ footer {
     .cards {
         height: 137vh;
     }
+    .top-desc .title {
+        width: 100%;
+        font-size: 1.6rem;
+    }
+    .top-desc p {
+        font-size: 1rem;
+    }
+    
 }
 @media (min-width: 360px) and (min-height: 640px) {
     html {
@@ -188,7 +203,7 @@ footer {
         height: 50%;
     }
     .top-desc .title {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .cards {
         height: 151vh;
@@ -219,6 +234,9 @@ footer {
 @media (min-width: 384px) and (min-height: 640px) /* lg optimus l70 */ {
     .top-desc .title {
         font-size: 1.6rem;
+    }
+    .top-desc p {
+        width: 98%;
     }
 }
 @media (min-width: 390px) and (min-height: 731px) /* iphone 12 pro */ {
@@ -479,6 +497,9 @@ footer {
     }
 }
 @media (min-width: 1600px) and (min-height: 795px) /* responsive */ {
+    html {
+        font-size: 18px;
+    }
     body {
         grid-template-rows: 43% 1fr 16%;
     }
@@ -492,14 +513,23 @@ footer {
         width: 45%;
         font-size: 1.2rem;
     }
+    .cards {
+        height: 55vh;
+    }
 }
 @media (min-width: 1920px) and (min-height: 1080px) /* responsive */ {
     .top-desc .title {
         width: 48%;
     }
     .top-desc p {
-        width: 44%;
-        font-size: 1.3rem;
+        width: 60%;
+        font-size: 1.5rem;
+    }
+    .cards > div .title {
+        line-height: 51px;
+    }
+    .cards > div p {
+        line-height: 30px;
     }
 }
 @media (min-width: 2560px) and (min-height: 1080px) /* responsive */ {
